@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.square {
+    height: 100px;
+    flex-grow: 1;
+}
+
+label, p {
+    text-transform: capitalize;
+}
+
+.flex {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wh-default {
+    width: 250px;
+    height: 25px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
